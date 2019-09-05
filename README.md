@@ -7,7 +7,7 @@ I actually prepared this application to meet my own need. I had to look at the p
 
 This app have prepared with electron.js. 
 
-The app is in the following path:  
-`release-builds/Instagram for MacOS-darwin-x64`
+The packaged app is in the following path:  
+`release-builds/Instagram for MacOS-darwin-x64.app`
 
 I hope it will help you 👍
