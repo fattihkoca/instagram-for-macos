@@ -1,0 +1,29 @@
+{
+  "name": "instagram-for-macos",
+  "productName": "Instagram for MacOS",
+  "version": "0.0.1",
+  "description": "Instagram for MacOS",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "package-mac": "electron-packager . --overwrite --platform=darwin --arch=x64 --icon=assets/icon.icns --prune=true --out=release-builds"
+  },
+  "repository": "https://github.com/fattihkoca",
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "demo"
+  ],
+  "author": "Fatih Koca",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^4.2.10",
+    "electron-packager": "^13.1.1"
+  },
+  "dependencies": {
+    "electron-context-menu": "^0.15.0",
+    "electron-store": "^2.0.0"
+  }
+}
