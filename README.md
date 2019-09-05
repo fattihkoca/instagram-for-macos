@@ -2,9 +2,9 @@
 
 ![Instagram for MacOS](https://user-images.githubusercontent.com/1655312/64341575-51536a80-cff1-11e9-93f3-9cd9f9e207db.png)
 
-A simple application that will allow you to easily look at your instagram account while working with Mac. 💻
+A simple application that will allow you to easily look at your Instagram account while working with Mac. 💻
 
-I actually prepared this application to meet my own need. I had to look at the phone every time to look at Instagram comments and messages. And when I picked up the phone, I was distracted. 📱😬
+I actually prepared this application to meet my own need. I had to look at the phone every time to look at Instagram comments and messages (Direct). And when I picked up the phone, I was distracted. 📱😬
 
 This app have prepared with electron.js. 
 
