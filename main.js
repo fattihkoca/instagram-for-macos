@@ -28,6 +28,7 @@ function createWindow() {
 
     // and load the index.html of the app.
     mainWindow.loadFile('index.html')
+    //mainWindow.loadURL('https://classest.com')
 
     mainWindow.webContents.on('did-finish-load', () => {
         mainWindow.show();
@@ -45,6 +46,7 @@ function createWindow() {
     });
 
     //mainWindow.webContents.openDevTools();
+    win.setMenuBarVisibility(false);
 }
 
 // This method will be called when Electron has finished

@@ -8,7 +8,7 @@ I actually prepared this application to meet my own need. I had to look at the p
 
 It has all the features in the mobile web version of Instagram.
 
-**[DOWNLOAD](https://github.com/fattihkoca/instagram-for-macos/releases/download/0.0.1/Instagram.for.MacOS.app.zip)**
+**[DOWNLOAD](https://github.com/fattihkoca/instagram-for-macos/releases/download/v0.0.2/Instagram.for.MacOS.zip)**
 
 ---
 
