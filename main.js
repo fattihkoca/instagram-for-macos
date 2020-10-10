@@ -16,7 +16,9 @@ function createWindow() {
         closable: true,
         maximizable: false,
         webPreferences: {
-            nodeIntegration: true
+            nodeIntegration: true,
+            webviewTag: true,
+            worldSafeExecuteJavaScript: true
         },
         frame: false,
         transparent: true,
