@@ -46,7 +46,7 @@ function createWindow() {
     });
 
     //mainWindow.webContents.openDevTools();
-    win.setMenuBarVisibility(false);
+    mainWindow.setMenuBarVisibility(false);
 }
 
 // This method will be called when Electron has finished
