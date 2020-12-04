@@ -6,12 +6,19 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Instagram for MacOS</title>
   <link rel="stylesheet" href="assets/style.css">
+  <script src="assets/script.js"></script>
 </head>
 <body>
-<div id="wrapper">
-  <div id="holder"></div>
-  <webview id="webview" src="https://www.instagram.com/" useragent="Mozilla/5.0 (iPhone; CPU iPhone OS 12_1_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.0 Mobile/15E148 Safari/604.1"></webview>
+<div class="container">
+  <div class="holder"></div>
 </div>
+
+<nav class="account-nav">
+  <div class="account-nav-wrapper"></div>
+  <button data-type="new">＋</button>
+</nav>
+
+<button class="remove-account" title="Remove account">↵</button>
 
 </body>
 </html>

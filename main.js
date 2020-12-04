@@ -18,7 +18,8 @@ function createWindow() {
         webPreferences: {
             nodeIntegration: true,
             webviewTag: true,
-            worldSafeExecuteJavaScript: true
+            worldSafeExecuteJavaScript: true,
+            contextIsolation: true
         },
         frame: false,
         transparent: true,
@@ -28,6 +29,9 @@ function createWindow() {
         //show: false
     });
 
+    // Open the DevTools.
+    //mainWindow.webContents.openDevTools();
+
     // and load the index.html of the app.
     mainWindow.loadFile('index.html')
     //mainWindow.loadURL('https://classest.com')
@@ -35,9 +39,6 @@ function createWindow() {
     mainWindow.webContents.on('did-finish-load', () => {
         mainWindow.show();
     });
-
-    // Open the DevTools.
-    // mainWindow.webContents.openDevTools()
 
     // Emitted when the window is closed.
     mainWindow.on('closed', function () {

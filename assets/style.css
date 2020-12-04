@@ -19,7 +19,7 @@ html, body {
     padding: 0;
 }
 
-#wrapper #webview {
+.container .webview {
     position: absolute;
     display: inline-flex !important;
     top: var(--top-space);
@@ -31,7 +31,7 @@ html, body {
     z-index: 2;
 }
 
-#wrapper #holder {
+.container .holder {
     position: absolute;
     top: 0;
     right: 0;
@@ -42,4 +42,61 @@ html, body {
     transition: .4s;
     -webkit-user-select: none;
     -webkit-app-region: drag;
+}
+
+.account-nav {
+    position: fixed;
+    top: 6px;
+    right: 6px;
+    z-index: 999999;
+    user-select: none;
+}
+
+.account-nav, .account-nav .account-nav-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.account-nav button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    margin-left: 2px;
+    width: 21px;
+    height: 21px;
+    border-radius: 4px;
+    background: transparent;
+    border: #cac9c9 1px solid;
+    color: #6d6d6d;
+    font-size: 13px;
+    outline: none;
+}
+
+.account-nav button:hover {
+    color: #000
+}
+
+.account-nav button[data-current-account='true'] {
+    background: #cac9c9;
+    border-color: #cac9c9;
+}
+
+.remove-account {
+    position: fixed;
+    top: 12px;
+    left: 53px;
+    z-index: 999999;
+    user-select: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    width: 13px;
+    height: 13px;
+    overflow: hidden;
+    background: #657bca;
+    color: #000;
+    font-size: 9px;
+    border-radius: 23px;
 }
